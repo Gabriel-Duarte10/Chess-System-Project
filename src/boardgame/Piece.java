@@ -7,18 +7,11 @@ public class Piece {
 	
 	public Piece(Board board) {
 		this.board = board;
-		position = null; // Poderia deixar sem isso, pois por padrao uma variavel vazia e nulla
+		position = null; 
 	}
 	
 	protected Board getBoard() {
 		return board;
 	}
-	
-	
-	
-		
-	
-	
-	
 	
 }
